@@ -1,0 +1,22 @@
+@import "../../../../styles/variables.scss";
+
+.NavigationItem {
+  margin: 10px 0;
+  box-sizing: border-box;
+  display: block;
+  width: 100%;
+
+  a {
+    color: $navItemColor;
+    text-decoration: none;
+    width: 100%;
+    box-sizing: border-box;
+    display: block;
+
+    &:hover,
+    &:active,
+    &.active {
+      color: $navItemHoverColor;
+    }
+  }
+}

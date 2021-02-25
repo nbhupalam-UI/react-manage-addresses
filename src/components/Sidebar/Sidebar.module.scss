@@ -1,0 +1,13 @@
+@import "../../styles/variables.scss";
+
+.Sidebar {
+  padding: 0 20px;
+  background: $sideBackground;
+  padding-top: 20px;
+  width: 200px;
+
+  .Title {
+    color: $sidebarTitle;
+    margin: 0;
+  }
+}

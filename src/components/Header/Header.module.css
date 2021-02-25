@@ -1,0 +1,19 @@
+.Header {
+  height: 60px;
+  width: 100%;
+  background-color: #000000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+  box-sizing: border-box;
+}
+
+.Header nav {
+  height: 100%;
+}
+
+.Title {
+  color: white;
+  margin: 0;
+}

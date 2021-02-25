@@ -1,0 +1,47 @@
+@import "../../../styles/variables.scss";
+
+.AddressCard {
+  box-shadow: 0 2px 3px $cardShadow;
+  width: 260px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  margin-right: 15px;
+}
+
+.CardHeader {
+  margin: 0;
+  background-color: $addressTitleBackground;
+  padding: 10px;
+  color: $addressCardTitle;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.CardBody {
+  padding: 0 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.Actions {
+  display: flex;
+  flex-direction: column;
+  margin-top: 16px;
+  align-items: flex-start;
+}
+
+.Actions button {
+  background-color: $transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.Edit {
+  color: $editAddressBtn;
+}
+
+.Delete {
+  color: $deleteAddressBtn;
+  margin-top: 4px;
+}
