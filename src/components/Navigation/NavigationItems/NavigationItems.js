@@ -1,11 +1,16 @@
 import React from "react";
 
+import Aux from "../../../hoc/AuxComponent/AuxComponent";
 import NavigationItem from "./NavigationItem/NavigationItem";
 import classes from "./NavigationItems.module.scss";
 
 const navigationItems = ({ isAuthenticated }) => (
   <ul className={classes.NavigationItems}>
-    {isAuthenticated && <NavigationItem link="/logout">Logout</NavigationItem>}
+    {isAuthenticated && (
+      <Aux>
+        <NavigationItem link="/logout">Logout</NavigationItem>
+      </Aux>
+    )}
   </ul>
 );
 
